@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font awosome -->
+    <script src="https://kit.fontawesome.com/dbf868f91c.js" crossorigin="anonymous"></script>
+    <!-- Tailwind and daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind custome color -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        't-c-p': '#1C1C1C',
+                        't-c-s': '#777',
+                        
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+
+    <header class="container mx-auto">
+        <!-- Banner section -->
+        <section>
+            <div class="hero ">
+                <div class="hero-content flex-col lg:flex-row">
+
+                    <div class="mt-[4.25rem]">
+                        <h1 class=" text-t-c-p text-[3rem] md:text-[4rem] lg:text-[5rem] font-extrabold">It's good
+                            <br>tea time at The
+                            <br>Tea House
+                        </h1>
+                        <p class=" text-t-c-s text-lg font-medium">Tea and Botanical Solutions Supplier Give Optimum
+                            Satisfaction To Your Taste Buds.</p>
+                        <button class="btn  rounded-lg w-52 h-16">Explore More</button>
+                    </div>
+                    <div class="mt-32">
+                        <img src="./images/banner.png" class="" />
+                        <div class="flex items-center gap-3 rounded-xl w-64 h-24 justify-center drop-shadow-md	bg-white -mt-24 ml-16">
+                            <i class="fa-solid fa-star text-4xl text-[#FFC850]"></i>
+                            <div>
+                                <h4 class="text-t-c-p text-3xl font-extrabold">5.0</h4>
+                                <p class="text-t-c-s text-base font-semibold">Trust Pilot Ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
